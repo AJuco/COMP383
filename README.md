@@ -12,6 +12,8 @@ The provided python script named "Pipeline.py" should be capable of doing the fo
 **MUST DOWNLOAD**:
 Please download the "Pipeline.py" into your working directory. There is no need to download the fastq files as examples because they will be downloaded through the script already. Any dependencies needed will also already automatically be downloaded through import statements at the top of the script. If they are not present, please use 
 
+The example data download should already be included in the python script by using the wget and subprocess function. **If you need to change the data used go to line 51 and change the srr_numbers list and the urls in the download_fastq method**
+
 "pip install "dependency-name" given the error thrown based on what's missing.
 
 **How to run the script**:
